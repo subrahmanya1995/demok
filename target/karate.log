@@ -1,0 +1,35 @@
+13:36:01.397 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:36:01.408 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:36:02.548 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:02.548 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:02.592 [pool-1-thread-2] ERROR com.intuit.karate - classpath:feature/userDetails.feature:5
+* def epectedOutput=read{'result.json'}
+no step-definition method match found for: def epectedOutput=read{'result.json'}
+classpath:feature/userDetails.feature:5
+13:36:02.592 [pool-1-thread-1] INFO  com.intuit.karate - [print] this is first test 
+13:36:03.236 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:feature/sample.feature
+13:36:03.347 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:feature/userDetails.feature
+13:37:34.696 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:37:34.700 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1621411654699
+13:37:34.706 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:37:35.679 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:37:35.679 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:37:35.721 [pool-1-thread-2] ERROR com.intuit.karate - classpath:feature/userDetails.feature:5
+* def epectedOutput=read{'result.json'}
+no step-definition method match found for: def epectedOutput=read{'result.json'}
+classpath:feature/userDetails.feature:5
+13:37:35.721 [pool-1-thread-1] INFO  com.intuit.karate - [print] this is first test 
+13:37:36.220 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:feature/sample.feature
+13:37:36.325 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:feature/userDetails.feature
+13:47:39.147 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:47:39.150 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1621412259150
+13:47:39.156 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:47:40.035 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:40.035 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:47:40.074 [pool-1-thread-2] ERROR com.intuit.karate - classpath:feature/userDetails.feature:5
+* def epectedOutput=read{'result.json'}
+no step-definition method match found for: def epectedOutput=read{'result.json'}
+classpath:feature/userDetails.feature:5
+13:47:40.074 [pool-1-thread-1] INFO  com.intuit.karate - [print] this is first test 
+13:47:40.609 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:feature/sample.feature
+13:47:40.711 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:feature/userDetails.feature
