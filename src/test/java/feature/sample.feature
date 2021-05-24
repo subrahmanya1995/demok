@@ -1,4 +1,4 @@
-
+#@ignore
 Feature:junit5 test
 
 Scenario:

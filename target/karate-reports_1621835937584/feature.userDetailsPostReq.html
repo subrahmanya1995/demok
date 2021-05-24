@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>feature.userDetailsPostReq</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-05-24 10:58:00 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:4]"><span>[1:4]</span> <span>create user details</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">feature/userDetailsPostReq.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">test post call</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:4]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:4]</span>
+                <span class="scenario-name">create user details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>538</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &quot;https://reqres.in/api/users&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">10:57:59.298 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request &#39;{&quot;name&quot;: &quot;morpheus&quot;,&quot;job&quot;: &quot;leader&quot;}&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">535</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">10:57:59.405 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 36
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;}
+
+10:57:59.839 response time in milliseconds: 433
+1 &lt; 201
+1 &lt; Date: Mon, 24 May 2021 05:28:00 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 51
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;33-nEzv2OF0N28LrSGyj3FbLK9z8Jc&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; cf-request-id: 0a3e713800000031a6f88e8000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=fBYMTezkj2%2B9EnhqEuwq6577vmHgwRfXJwrAvBti5nYa6bIqZS6AAyLIRgdTZhb%2FJ6gvwrI5UNUuOEIhrNZNtKxFwGwbHXh5NkI%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 65441e399af931a6-BOM
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;createdAt&quot;:&quot;2021-05-24T05:28:00.458Z&quot;,&quot;id&quot;:&quot;930&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">10:57:59.842 [print] {
+  &quot;createdAt&quot;: &quot;2021-05-24T05:28:00.458Z&quot;,
+  &quot;id&quot;: &quot;930&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

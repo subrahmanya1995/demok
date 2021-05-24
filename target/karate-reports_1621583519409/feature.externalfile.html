@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>feature.externalfile</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-05-21 11:42:41 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>request user 2 details</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:14]"><span>[2:14]</span> <span>request user 3 details</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">feature/externalfile.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">external files</span>
+          <span class="feature-description">Background
+ *def expectedOutput2=read(&#39;result2.json&#39;)
+ *def expectedOutput3=read(&#39;result3.json&#39;)</span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">request user 2 details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1508</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users/2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">11:42:39.482 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1479</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">11:42:40.410 request:
+1 &gt; GET https://reqres.in/api/users/2
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:42:41.020 response time in milliseconds: 436
+1 &lt; 200
+1 &lt; Date: Fri, 21 May 2021 06:12:41 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;118-pbdwwFo9SKNhD3Lx5iHJyngpq00&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; Cache-Control: max-age=14400
+1 &lt; CF-Cache-Status: HIT
+1 &lt; Age: 210
+1 &lt; cf-request-id: 0a2f270d90000031b74aac5000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=mdE5mmQVPuvle0%2BzrRNTfFQ2jW6HJTK40MNr4BtmdqidoFud3LlvW4qPlTKCju3%2BxlztW1GUswxNm0j%2BwF7jb1cbZSSY6G848ws%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 652ba78f4dec31b7-BOM
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;last_name&quot;:&quot;Weaver&quot;,&quot;id&quot;:2,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/2-image.jpg&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;},&quot;support&quot;:{&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">11:42:41.035 [print] {
+  &quot;data&quot;: {
+    &quot;last_name&quot;: &quot;Weaver&quot;,
+    &quot;id&quot;: 2,
+    &quot;avatar&quot;: &quot;https://reqres.in/img/faces/2-image.jpg&quot;,
+    &quot;first_name&quot;: &quot;Janet&quot;,
+    &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;
+  },
+  &quot;support&quot;: {
+    &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,
+    &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref failed">12</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == expectedOutput2</span>
+      </div>
+    </div>
+    <div class="time-cell failed">17</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">11:42:41.052 classpath:feature/externalfile.feature:12
+And match response == expectedOutput2
+&gt;&gt;&gt;&gt; js failed:
+01: expectedOutput2
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;expectedOutput2&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+classpath:feature/externalfile.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:14]</span>
+                <span class="scenario-name">request user 3 details</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1589</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users/3&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">11:42:39.482 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1576</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.16">11:42:40.409 request:
+1 &gt; GET https://reqres.in/api/users/3
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:42:41.114 response time in milliseconds: 702
+1 &lt; 200
+1 &lt; Date: Fri, 21 May 2021 06:12:41 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;112-EeInfgHWtnxhYRnwgZUB667e024&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; Cache-Control: max-age=14400
+1 &lt; CF-Cache-Status: REVALIDATED
+1 &lt; cf-request-id: 0a2f270d9000002e117cb4c000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=KrZQ2maR%2BS866Sh242USKb0yyJUj%2BgFiJEIVjXH2AkHPx0stFiPWqzykpfzJhG9dGrqVQu8ZDm7Zjs3%2Bwa98CHElwSpmDJhThzk%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 652ba78f4a5c2e11-BOM
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;data&quot;:{&quot;last_name&quot;:&quot;Wong&quot;,&quot;id&quot;:3,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/3-image.jpg&quot;,&quot;first_name&quot;:&quot;Emma&quot;,&quot;email&quot;:&quot;emma.wong@reqres.in&quot;},&quot;support&quot;:{&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">11:42:41.127 [print] {
+  &quot;data&quot;: {
+    &quot;last_name&quot;: &quot;Wong&quot;,
+    &quot;id&quot;: 3,
+    &quot;avatar&quot;: &quot;https://reqres.in/img/faces/3-image.jpg&quot;,
+    &quot;first_name&quot;: &quot;Emma&quot;,
+    &quot;email&quot;: &quot;emma.wong@reqres.in&quot;
+  },
+  &quot;support&quot;: {
+    &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,
+    &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref failed">19</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == expectedOutput3</span>
+      </div>
+    </div>
+    <div class="time-cell failed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">11:42:41.133 classpath:feature/externalfile.feature:19
+And match response == expectedOutput3
+&gt;&gt;&gt;&gt; js failed:
+01: expectedOutput3
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;expectedOutput3&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+classpath:feature/externalfile.feature:19
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>feature.userDetails</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-05-20 01:20:58 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:4]"><span>[1:4]</span> <span>get call back</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">feature/userDetails.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">user Details</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:4]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:4]</span>
+                <span class="scenario-name">get call back</span>
+                <span>&quot;&quot;&quot;
+*def myVar = &#39;test&#39;
+*def expectedresult=read(&#39;result.json&#39;)
+Given url &#39;https://reqres.in/api/users/2&#39;
+When method GET
+Then status 200
+Then print response
+#And match response == {&quot;data&quot;:{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/2-image.jpg&quot;},&quot;support&quot;:{&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;,&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;}}
+
+And match response == expectedresult
+And match response.data.id == 2
+And match response.data.last_name != null
+
+* def job_code = response.data.job_code
+And match job_code == null;
+
+#the above fileds is not present in response so we have taken in variable
+
+Then print myVar
+
+&quot;&quot;&quot;</span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>0</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>no steps executed</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">13:20:56.203 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
