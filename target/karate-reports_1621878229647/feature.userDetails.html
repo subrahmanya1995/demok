@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2021-05-24 11:13:54 PM</div>
+    <div>2021-05-24 01:42:56 PM</div>
   </div>        
 </div>
 
@@ -62,7 +62,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>312</span>
+              <span>ms:</span>&nbsp;<span>299</span>
             </div>
           </div>
           
@@ -88,7 +88,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.6">23:13:53.632 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.6">13:42:55.093 karate.env system property was: null 
 </div>   
 
   
@@ -108,7 +108,7 @@
         <span>*</span>&nbsp;<span>def expectedresult = read(&#39;../subra/result.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -164,7 +164,7 @@
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">296</div>
+    <div class="time-cell passed">273</div>
   </div>
 
    
@@ -173,7 +173,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.9">23:13:53.647 request:
+  <div class="preformatted" data-parent="0.9">13:42:55.102 request:
 1 &gt; GET https://reqres.in/api/users/2
 1 &gt; Host: reqres.in
 1 &gt; Connection: Keep-Alive
@@ -181,9 +181,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-23:13:53.939 response time in milliseconds: 291
+13:42:55.372 response time in milliseconds: 225
 1 &lt; 200
-1 &lt; Date: Mon, 24 May 2021 17:43:54 GMT
+1 &lt; Date: Mon, 24 May 2021 08:12:56 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -193,14 +193,14 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; Cache-Control: max-age=14400
 1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 743
-1 &lt; cf-request-id: 0a4112f47b00001710c82ce000000001
+1 &lt; Age: 5356
+1 &lt; cf-request-id: 0a3f08375f0000dd8b13a5b000000001
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v2?s=KyUuc2besOj2J5Eu8Wy6sE%2FiHoO6noeWvd0ITX9DHwF9saXzSaeRiGD55bnYJHhiaJv7Q%2Fi7UoKnT2VhkbQC8p%2F%2Bh6uTRZDlceW%2FZiE9sQyg0%2BmYIsrn&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=BXB56FeDeJv25%2Bz7fks%2FMN46gw0w930OxFxcRuO61ZXyXLju6h7K6J%2FxlQQZZEaAOHCL24k%2FWy4jUMsVcqZMm2Oh16CQHwmxDnE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Vary: Accept-Encoding
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 65485433fca31710-SIN
+1 &lt; CF-RAY: 65450fd22c70dd8b-SIN
 1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;data&quot;:{&quot;last_name&quot;:&quot;Weaver&quot;,&quot;id&quot;:2,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/2-image.jpg&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;},&quot;support&quot;:{&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;}}
 </div>   
@@ -250,7 +250,7 @@
         <span>Then</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -259,7 +259,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.11">23:13:53.942 [print] {
+  <div class="preformatted" data-parent="0.11">13:42:55.377 [print] {
   &quot;data&quot;: {
     &quot;last_name&quot;: &quot;Weaver&quot;,
     &quot;id&quot;: 2,
@@ -355,7 +355,7 @@
         <span>And</span>&nbsp;<span>match response.data.last_name != null</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -383,7 +383,7 @@
         <span>*</span>&nbsp;<span>def job_code = response.data.job_code</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -427,7 +427,7 @@
         <span>Then</span>&nbsp;<span>print myVar</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -436,7 +436,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.23">23:13:53.952 [print] test 
+  <div class="preformatted" data-parent="0.23">13:42:55.395 [print] test 
 </div>   
 
   

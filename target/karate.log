@@ -18492,3 +18492,478 @@ classpath:feature/userDetailsPostReq.feature:5
 }
  
 13:42:58.861 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:feature/userDetailsPostReq.feature
+18:29:56.128 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+18:33:33.599 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+18:35:15.689 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+18:51:24.294 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+23:03:58.054 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - missing FEATURE at '<EOF>'
+23:04:31.636 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - missing FEATURE at '<EOF>'
+23:05:05.971 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/authentication.feature - missing FEATURE at '<EOF>'
+23:05:43.032 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userdetailauntenticationTest2.feature - missing FEATURE at '<EOF>'
+23:07:25.149 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userdetailauntenticationTest2.feature - missing FEATURE at '<EOF>'
+23:08:30.848 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userdetailauntenticationTest2.feature - missing FEATURE at '<EOF>'
+23:09:04.319 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userdetailauntenticationTest2.feature - missing FEATURE at '<EOF>'
+23:12:01.907 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userdetailauntenticationTest2.feature - missing FEATURE at '<EOF>'
+23:13:06.177 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userDetailAuthentiationTest2.feature - missing FEATURE at '<EOF>'
+23:13:49.637 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:13:49.648 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1621878229647
+23:13:49.669 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+23:13:51.116 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:51.116 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:51.116 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:51.116 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:51.269 [pool-1-thread-1] DEBUG com.intuit.karate - over-writing existing variable 'expectedOutput4' with new value: read('classpath:subra/multipleJsons.json')
+23:13:51.269 [pool-1-thread-2] DEBUG com.intuit.karate - over-writing existing variable 'expectedOutput4' with new value: read('classpath:subra/multipleJsons.json')
+23:13:51.269 [pool-2-thread-1] DEBUG com.intuit.karate - over-writing existing variable 'expectedOutput4' with new value: read('classpath:subra/multipleJsons.json')
+23:13:51.270 [pool-1-thread-3] DEBUG com.intuit.karate - over-writing existing variable 'expectedOutput4' with new value: read('classpath:subra/multipleJsons.json')
+23:13:52.109 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/5
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:52.109 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/6
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:52.109 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/4
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:52.109 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/7
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:53.311 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1190
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < cf-request-id: 0a4112f14400005fa60f90d000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=GOdRAzZglPGAfTyKBcQPFeTaT%2Fj5YYmadrFoUKOTzgwnTSOOXImo4KHj2jP9Ig%2B4Yeemz7%2F2CBV8T4gKTWQKycf4P0JKZV0S1folrFUjvTA8cS7qGVV8"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 6548542ec8ad5fa6-MRS
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Morris","id":5,"avatar":"https:\/\/reqres.in\/img\/faces\/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.311 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1190
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < cf-request-id: 0a4112f15100005fd08aa7b000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=TmY7EHbPTtPXRc3pFPGaK8JoU%2F4g6dJ0QRebWY4VxC6ptLX0463POBYXO840oh8giZbAk4%2FTiMV4X0uLuOc7IPCE55KedjYMY8t8bcJ7aSzTJ2m6kCDb"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 6548542eef455fd0-MRS
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Ramos","id":6,"avatar":"https:\/\/reqres.in\/img\/faces\/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.316 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Morris",
+    "id": 5,
+    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+    "first_name": "Charles",
+    "email": "charles.morris@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.316 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Ramos",
+    "id": 6,
+    "avatar": "https://reqres.in/img/faces/6-image.jpg",
+    "first_name": "Tracey",
+    "email": "tracey.ramos@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.488 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1378
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"11c-Esb3aX7LcoAMUKcF3i6bvWwxqls"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < cf-request-id: 0a4112f10700001910faa49000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=vYbRbEd1NLntM3YeD0Q%2FeNLJk6mMMSppma7LfWMRgmkU%2FNUXKPtM2gyyzf5n%2Fp2o5WLF6tTqJ6IsD1G1eyi%2F8UP8Fz0th9ZtoNj3OeQXAhfuoYw%2B4CQs"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 6548542e79031910-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Lawson","id":7,"avatar":"https:\/\/reqres.in\/img\/faces\/7-image.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.490 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1379
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"110-Xdg3LtI+q2zMxihHlfeIZQo/bvY"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < cf-request-id: 0a4112f10900001a880a02a000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=VFqiMqVTIUfDK8VXLVcNPnHPXZ9JJ8Fp3fy3Gt%2FWEMU8cyLKmCrY%2F%2FWR5a6l2sSxu7eRTAetyiwwxholUZT0MZrFyS2qsUPLMe4WebXYKySt%2Fc2Y2CqC"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 6548542e7f201a88-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Holt","id":4,"avatar":"https:\/\/reqres.in\/img\/faces\/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.497 [pool-2-thread-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Lawson",
+    "id": 7,
+    "avatar": "https://reqres.in/img/faces/7-image.jpg",
+    "first_name": "Michael",
+    "email": "michael.lawson@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.499 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Holt",
+    "id": 4,
+    "avatar": "https://reqres.in/img/faces/4-image.jpg",
+    "first_name": "Eve",
+    "email": "eve.holt@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.592 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:53.602 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:53.632 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:53.641 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+23:13:53.647 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:53.648 [pool-1-thread-4] INFO  com.intuit.karate - [print] this is first test 
+23:13:53.657 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:53.748 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/8?delay=3
+1 > Content-Type: application/json; charset=UTF-8
+1 > Accept: application/json
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+23:13:53.931 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 743
+1 < cf-request-id: 0a4112f477000001935e20c000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=CpreyNwa66yqLIW5ujL9ZYND7Jz6C2pwNG1C%2F3qG7cxOeC3Ho2eURyZHY4pvawLvMS2MunSRmOZC615Rr1MbY1KwjPFmB3xQyDZVCslW%2BBzavCBVTtOC"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 65485433fa850193-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.934 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.938 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 743
+1 < cf-request-id: 0a4112f47b00001710c82ce000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=KyUuc2besOj2J5Eu8Wy6sE%2FiHoO6noeWvd0ITX9DHwF9saXzSaeRiGD55bnYJHhiaJv7Q%2Fi7UoKnT2VhkbQC8p%2F%2Bh6uTRZDlceW%2FZiE9sQyg0%2BmYIsrn"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 65485433fca31710-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:53.942 [pool-1-thread-5] INFO  com.intuit.karate - [print] {
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  },
+  "support": {
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+    "url": "https://reqres.in/#support-heading"
+  }
+}
+ 
+23:13:53.951 [pool-1-thread-3] INFO  com.intuit.karate - [print] test 
+23:13:53.951 [pool-1-thread-5] INFO  com.intuit.karate - [print] test 
+23:13:53.956 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/5
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:13:54.179 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 223
+1 < 200
+1 < Date: Mon, 24 May 2021 17:43:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4370
+1 < cf-request-id: 0a4112f55e00001abcb5266000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=NBNFqz16FnurUDZEKYI4V6tJjmzXsD0VJj0%2Bg9fgCyZxxS%2B06JqHVcfj0uCSDos0wjnbuXahcI6mPymXtOVq1iDbg0W38wLTnW3wN29H1elM1mBuSeFT"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 654854355efa1abc-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"data":{"last_name":"Morris","id":5,"avatar":"https:\/\/reqres.in\/img\/faces\/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}
+23:13:54.182 [pool-1-thread-3] INFO  com.intuit.karate - [print] result---- {
+  "myVar": "test",
+  "responseHeaders": {
+    "Date": [
+      "Mon, 24 May 2021 17:43:54 GMT"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Etag": [
+      "W/\"118-pbdwwFo9SKNhD3Lx5iHJyngpq00\""
+    ],
+    "Via": [
+      "1.1 vegur"
+    ],
+    "Cache-Control": [
+      "max-age=14400"
+    ],
+    "CF-Cache-Status": [
+      "HIT"
+    ],
+    "Age": [
+      "743"
+    ],
+    "cf-request-id": [
+      "0a4112f477000001935e20c000000001"
+    ],
+    "Expect-CT": [
+      "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+    ],
+    "Report-To": [
+      "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v2?s=CpreyNwa66yqLIW5ujL9ZYND7Jz6C2pwNG1C%2F3qG7cxOeC3Ho2eURyZHY4pvawLvMS2MunSRmOZC615Rr1MbY1KwjPFmB3xQyDZVCslW%2BBzavCBVTtOC\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+    ],
+    "NEL": [
+      "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+    ],
+    "Vary": [
+      "Accept-Encoding"
+    ],
+    "Server": [
+      "cloudflare"
+    ],
+    "CF-RAY": [
+      "65485433fa850193-SIN"
+    ],
+    "alt-svc": [
+      "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+    ]
+  },
+  "response": {
+    "data": {
+      "last_name": "Weaver",
+      "id": 2,
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "first_name": "Janet",
+      "email": "janet.weaver@reqres.in"
+    },
+    "support": {
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!",
+      "url": "https://reqres.in/#support-heading"
+    }
+  },
+  "expectedOutput": {
+    "data": {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  },
+  "job_code": null,
+  "env": "dev",
+  "myVarName": "someValue",
+  "responseStatus": 200,
+  "expectedresult": {
+    "data": {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+ 
+23:13:54.186 [pool-1-thread-3] INFO  com.intuit.karate - [print] Date: [
+  "Mon, 24 May 2021 17:43:54 GMT"
+]
+ 
+23:13:54.718 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:feature/externalfile.feature
+23:13:54.753 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:feature/sample.feature
+23:13:54.819 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:feature/userDetails.feature
+23:13:54.959 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:feature/userDetails2.feature
+23:13:57.241 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 3492
+1 < 201
+1 < Date: Mon, 24 May 2021 17:43:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-vCPZtvm7MUa0/Nvaz8IJlmIsm68"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0a4112f43c0000de21b813f000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=hw3L9aWe8dcXHgAvTaWpcBRETIYcSy2bOU15puGIkWzOPCENHSLCmq%2FA1rFmiQyVcdiNbnz163w5pY4Ds3CLb%2FczhgTfJTgtSLIOMMSYXnxspsyrZY77"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 654854338f2ede21-BOM
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+{"createdAt":"2021-05-24T17:43:57.498Z","name":"morpheus","id":"639","job":"leader"}
+23:13:57.248 [pool-1-thread-2] INFO  com.intuit.karate - [print] response--> {
+  "createdAt": "2021-05-24T17:43:57.498Z",
+  "name": "morpheus",
+  "id": "639",
+  "job": "leader"
+}
+ 
+23:13:57.331 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:feature/userDetailsPostReq.feature
+23:15:06.801 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userDetailaAutherization.feature - missing FEATURE at '<EOF>'
+23:15:37.709 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: feature/userDetailAuth.feature - missing FEATURE at '<EOF>'

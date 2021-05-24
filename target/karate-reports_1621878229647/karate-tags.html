@@ -10,7 +10,7 @@
     <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="res/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/karate-report.js"></script>
-    <title>Karate Summary Report</title>  
+    <title>Karate Tags Report</title>  
   </head>
   <body>   
     <div id="root-container">
@@ -22,84 +22,60 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-pass" class="bg-success">1</div>
       <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-type">
-    <div>Features</div>
+    <div>Tags</div>
   </div>         
   <div id="nav-date">
-    <div>2021-05-24 11:13:57 PM</div>
+    <div>2021-05-24 01:42:58 PM</div>
   </div>        
 </div>
 
       </div>
       <div id="content">
         <div class="page-heading alert alert-primary">
-          <a href="karate-tags.html">Tags</a>
+          <a href="karate-summary.html">Summary</a>
         </div>       
-        <table class="features-table table table-sm">
+        <table class="tags-table table table-sm ">
           <thead>
             <tr>
-              <th>Feature</th>
-              <th>Title</th>
-              <th class="num">Passed</th>
-              <th class="num">Failed</th>
-              <th class="num">Scenarios</th>
-              <th class="num">Time (ms)</th>
+              <th class="feature-cell">Feature</th>
+              <th classapend="passed">parallel</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="passed">              
-              <td>
+            <tr class="passed">
+              <td class="feature-cell">
                 <a href="feature.externalfile.html">feature/externalfile.feature</a>
               </td>
-              <td>external files</td>
-              <td class="num">4</td>
-              <td class="num">0</td>
-              <td class="num">4</td>
-              <td class="num">8967</td>            
+              <td classapend="passed">X</td>
             </tr>
-            <tr class="passed">              
-              <td>
+            <tr class="passed">
+              <td class="feature-cell">
                 <a href="feature.userDetails2.html">feature/userDetails2.feature</a>
               </td>
-              <td>user Details</td>
-              <td class="num">1</td>
-              <td class="num">0</td>
-              <td class="num">1</td>
-              <td class="num">580</td>            
+              <td classapend="passed"></td>
             </tr>
-            <tr class="passed">              
-              <td>
+            <tr class="passed">
+              <td class="feature-cell">
                 <a href="feature.userDetailsPostReq.html">feature/userDetailsPostReq.feature</a>
               </td>
-              <td>test post call</td>
-              <td class="num">1</td>
-              <td class="num">0</td>
-              <td class="num">1</td>
-              <td class="num">3653</td>            
+              <td classapend="passed"></td>
             </tr>
-            <tr class="passed">              
-              <td>
+            <tr class="passed">
+              <td class="feature-cell">
                 <a href="feature.sample.html">feature/sample.feature</a>
               </td>
-              <td>junit5 test</td>
-              <td class="num">1</td>
-              <td class="num">0</td>
-              <td class="num">1</td>
-              <td class="num">4</td>            
+              <td classapend="passed"></td>
             </tr>
-            <tr class="passed">              
-              <td>
+            <tr class="passed">
+              <td class="feature-cell">
                 <a href="feature.userDetails.html">feature/userDetails.feature</a>
               </td>
-              <td>user Details</td>
-              <td class="num">1</td>
-              <td class="num">0</td>
-              <td class="num">1</td>
-              <td class="num">312</td>            
+              <td classapend="passed"></td>
             </tr>            
           </tbody>
         </table>
