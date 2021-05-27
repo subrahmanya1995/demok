@@ -1,7 +1,7 @@
-Feature: call to toek generation feature
+Feature: call to token generation feature
 
 Background:
- * def myfeature = call read('userDetailAuth.feature'){'email': 'eve.holt@reqres.in', 'password' : 'pistol'}
+ * def myfeature = call read('userDetailAuth.feature'){'email': 'eve.holt@reqres.in', 'password': 'pistol'}
  * def authToken = myfeature.accesToken
  
  Scenario: GET call
